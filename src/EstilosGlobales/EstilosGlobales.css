@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.texto-standar-1-EstillosGlobales {
+    color:#ba0971;
+    text-align: center;
+}
+
+
+.boton-standar-1-EstillosGlobales {
+    margin: 10px;
+    background: #ba0971;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+.boton-standar-2-EstillosGlobales {
+    background: #a6a6a6;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 20px;
+    width: 260px;
+    height: 80px;
+    margin: 20px 60px 20px 60px;
+
+}
+.boton-standar-3-EstillosGlobales {
+    background: #d9d9d9;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+}
+.boton-standar-4-EstillosGlobales {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 20px;
+    width: 220px;
+    height: 80px;
+    margin: 20px 60px 20px 60px;
+}
+
+
+.boton-redes-sociales-EstillosGlobales {
+    border: 0;
+    background: none;
+    fill: #ba0971;
+}
