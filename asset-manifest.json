@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Proyecto-IAF/static/css/main.f7e0eab0.css",
-    "main.js": "/Proyecto-IAF/static/js/main.4b5130bb.js",
-    "static/js/787.e1063950.chunk.js": "/Proyecto-IAF/static/js/787.e1063950.chunk.js",
-    "static/media/3.png": "/Proyecto-IAF/static/media/3.443a4e625509f22c0293.png",
-    "static/media/1.png": "/Proyecto-IAF/static/media/1.63ad393e5b0946a31faa.png",
-    "static/media/2.png": "/Proyecto-IAF/static/media/2.26f8c197e3ea118197e2.png",
-    "static/media/mapa4.png": "/Proyecto-IAF/static/media/mapa4.9177c6649a40b9a882dc.png",
-    "static/media/mapa3.png": "/Proyecto-IAF/static/media/mapa3.9b2062c2aae07f03e76a.png",
-    "static/media/mapa1.png": "/Proyecto-IAF/static/media/mapa1.91c26cc31875bcdca077.png",
-    "static/media/mapa2.png": "/Proyecto-IAF/static/media/mapa2.e93fe8ac7c71c890b552.png",
-    "static/media/logo-iaf.png": "/Proyecto-IAF/static/media/logo-iaf.f95445e770764b5779ea.png",
-    "static/media/img-nueva-tegnologia.png": "/Proyecto-IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
-    "index.html": "/Proyecto-IAF/index.html",
-    "main.f7e0eab0.css.map": "/Proyecto-IAF/static/css/main.f7e0eab0.css.map",
-    "main.4b5130bb.js.map": "/Proyecto-IAF/static/js/main.4b5130bb.js.map",
-    "787.e1063950.chunk.js.map": "/Proyecto-IAF/static/js/787.e1063950.chunk.js.map"
+    "main.css": "/IAF/static/css/main.492953ad.css",
+    "main.js": "/IAF/static/js/main.2110021f.js",
+    "static/js/787.e1063950.chunk.js": "/IAF/static/js/787.e1063950.chunk.js",
+    "static/media/3.png": "/IAF/static/media/3.443a4e625509f22c0293.png",
+    "static/media/1.png": "/IAF/static/media/1.63ad393e5b0946a31faa.png",
+    "static/media/2.png": "/IAF/static/media/2.26f8c197e3ea118197e2.png",
+    "static/media/mapa4.png": "/IAF/static/media/mapa4.9177c6649a40b9a882dc.png",
+    "static/media/mapa3.png": "/IAF/static/media/mapa3.9b2062c2aae07f03e76a.png",
+    "static/media/mapa1.png": "/IAF/static/media/mapa1.91c26cc31875bcdca077.png",
+    "static/media/mapa2.png": "/IAF/static/media/mapa2.e93fe8ac7c71c890b552.png",
+    "static/media/logo-iaf.png": "/IAF/static/media/logo-iaf.f95445e770764b5779ea.png",
+    "static/media/img-nueva-tegnologia.png": "/IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
+    "index.html": "/IAF/index.html",
+    "main.492953ad.css.map": "/IAF/static/css/main.492953ad.css.map",
+    "main.2110021f.js.map": "/IAF/static/js/main.2110021f.js.map",
+    "787.e1063950.chunk.js.map": "/IAF/static/js/787.e1063950.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e0eab0.css",
-    "static/js/main.4b5130bb.js"
+    "static/css/main.492953ad.css",
+    "static/js/main.2110021f.js"
   ]
 }
