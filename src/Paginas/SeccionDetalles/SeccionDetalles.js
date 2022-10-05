@@ -3,30 +3,30 @@ import logo from '../../Imagenes/logo-iaf.png'
 
 import '../../EstilosGlobales/EstilosGlobales.css'
 import './SeccionDetalles.css'
+import useSimuladorAPI from '../../Hooks/useSimuladorAPI';
+import { useNavigate, useParams } from 'react-router-dom';
+import BreadCrumbs from '../../Componentes/BreadCrumbs/BreadCrumbs';
+import IconoSVG from '../../Componentes/IconosSVG/IconoSVG';
 
 export default function SeccionDetalles(props) {
-
-
-    const seleccionOpcionesDetalles= [
-        {   texto:'STAFF MÉDICO',
-            linkURL:'http://www.google.com'
-        },
-        {   texto:'CAPACITATE EN IAF',
-            linkURL:'http://www.google.com'
-        },
-        {   texto:'AREAS MÉDICAS',
-            linkURL:'http://www.google.com'
-        },
-        {   texto:'PUBLICACIONES',
-            linkURL:'http://www.google.com'
-        },
-        {   texto:'ECHO - ENSAYOS CLINICOS',
-            linkURL:'http://www.google.com'
-        },
+    let { id, opcion} = useParams()
+    let navigate = useNavigate();
+    let categoriasBreadCrums = [
+        id,
+        opcion.replace('-', ' ')
     ]
+
+
+    const {opcionSeleccionada}=useSimuladorAPI({tipo:opcion})
 
     return (
         <div  className='contenedor-SeccionDetalles texto-standar-1-EstillosGlobales'>
+            <div className='contenedor-contronl-pagina-EstillosGlobales'>
+                <button onClick={()=>navigate(-1)} className='boton-back-GlobalStyle'><IconoSVG tipo='flecha-izquierda' width='30px'/></button>
+                <BreadCrumbs categorias={categoriasBreadCrums} />
+            </div>
+
+            
             <header className='encabezado-SeccionDetalles'>
                 <div className='contenedor-logo-SeccionDetalles'>
                     <img src={logo} className="logo-SeccionDetalles" alt="logo" />
@@ -34,10 +34,10 @@ export default function SeccionDetalles(props) {
                 <h2 className='titulo-seccion-SeccionDetalles'>MUCHO MÁS QUE ONCOLOGÍA</h2>
             </header>
             <section className='contenedor-informacion-SeccionDetalles'>
-                <h1>Con más de 50 especialidades y un plantel médico de reconocida trayectoria nacional e internacional.</h1>
-                <p>El 14 de marzo de 1994, el Instituto Alexander Fleming abrió sus puertas a la excelencia médica y científica. Hoy somos una de las instituciones de mayor prestigio en el país.</p>
+                <h1>{opcionSeleccionada.titulo}</h1>
+                <p>{opcionSeleccionada.descripcion}</p>
                 <div className='contenedor-botones-detalles-SeccionDetalles'>
-                    {seleccionOpcionesDetalles.map((opcion,i)=>{
+                    {opcionSeleccionada.seleccionOpcionesDetalles.map((opcion,i)=>{
                         return <button key={`opcion-SD-${i}`} className='boton-standar-4-EstillosGlobales'>
                                 {opcion.texto}
                                 </button>

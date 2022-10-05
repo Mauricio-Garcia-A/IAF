@@ -5,6 +5,7 @@ import logo from '../../Imagenes/logo-iaf.png'
 import '../../EstilosGlobales/EstilosGlobales.css'
 import './Home.css'
 import IconoRedSocial from '../../Componentes/IconosSVG/IconoRedSocial';
+import { Link } from 'react-router-dom';
 
 export default function Home(props) {
     const redesSociales = [
@@ -41,9 +42,13 @@ export default function Home(props) {
             <h1>CLÍNICA PRIVADA DE MAYOR PRESTIGIO EN ARGENTINA Y AMERICA LATINA, CON MÁS DE 50 ESPECIALIDADES MÉDICAS.</h1>
             <div className='contenedor-botones-seleccio-usuario-Home'>
                 {seleccionUsuario.map((usuario,i)=>{
-                    return <button key={`Usuario-${i}`}  className='boton-standar-1-EstillosGlobales'>
+                    return <Link 
+                                key={`Usuario-${i}`} 
+                                to={`/${usuario.rol}`} 
+                                className='boton-standar-1-EstillosGlobales'
+                            >
                                 {usuario.texto}
-                            </button>
+                            </Link>
                 })}
             </div>
             <h2 >Comprometidos con vos. Por eso, Sabemos Como Cuidarte.</h2>

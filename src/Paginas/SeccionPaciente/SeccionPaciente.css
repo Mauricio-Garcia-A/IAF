@@ -1,5 +1,6 @@
 .contenedor-SeccionPaciente {
     background-image: url(../../Imagenes/2.png);
+    position: relative;
 
 }
 
@@ -40,13 +41,21 @@
     margin: 15px;
     z-index: 2;
     margin-left: 10vw;
+    
 }
-
-.contenedor-mapa-SeccionPaciente {
+.contenedor-sedes-SeccionPaciente {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-mapa-sedes-SeccionPaciente {
     width: 300px;
     height: 180px;
-    background: blue;
     border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+}
+.imagen-mapa-SeccionPaciente {
+    width: 100%;
 }
 
 .contenedor-sedes-SeccionPaciente {
@@ -54,8 +63,7 @@
     flex-flow: row wrap;
 }
 .lista-sedes-SeccionPaciente {
-    margin-top: 10px;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 .contenedor-informacion-SeccionPaciente {
@@ -65,8 +73,35 @@
     margin-top: 50px;
 }
 .link-sede-SeccionPaciente {
+    color: rgb(133, 133, 133);
+    text-align: start;
+    padding: 0;
+    margin: 0;
+
+    border: 0;
+    background: none;
+    display:block
+}
+.link-sede-SeccionPaciente:hover {
     color: black;
     text-align: start;
     padding: 0;
     margin: 0;
+}
+.link-sede-SeccionPaciente.active {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+
+
+.boton-chat-SeccionPaciente {
+    border: 0;
+    background: none;
+    fill: #858786;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
