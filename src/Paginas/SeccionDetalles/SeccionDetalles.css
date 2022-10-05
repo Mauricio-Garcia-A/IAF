@@ -1,6 +1,13 @@
 .contenedor-SeccionDetalles {
     background-image: url(../../Imagenes/3.png);
     color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
 
 }
 .encabezado-SeccionDetalles {
@@ -13,7 +20,12 @@
     margin: 0;
     padding: 0;  
 }
-
+.titulo-SeccionDetalles {
+    margin:30px 3% 50px 3%; 
+}
+.subtitulo-SeccionDetalles {
+    margin:50px 0% 50px 0%; 
+}
 .contenedor-logo-SeccionDetalles {
     background: white;
     width: 80px;
