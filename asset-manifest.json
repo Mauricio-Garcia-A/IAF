@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Proyecto-IAF/static/css/main.f7e0eab0.css",
-    "main.js": "/Proyecto-IAF/static/js/main.c77647e2.js",
+    "main.css": "/Proyecto-IAF/static/css/main.bcaf38cb.css",
+    "main.js": "/Proyecto-IAF/static/js/main.5aa77526.js",
     "static/js/787.e1063950.chunk.js": "/Proyecto-IAF/static/js/787.e1063950.chunk.js",
     "static/media/3.png": "/Proyecto-IAF/static/media/3.443a4e625509f22c0293.png",
     "static/media/1.png": "/Proyecto-IAF/static/media/1.63ad393e5b0946a31faa.png",
@@ -10,15 +10,16 @@
     "static/media/mapa3.png": "/Proyecto-IAF/static/media/mapa3.9b2062c2aae07f03e76a.png",
     "static/media/mapa1.png": "/Proyecto-IAF/static/media/mapa1.91c26cc31875bcdca077.png",
     "static/media/mapa2.png": "/Proyecto-IAF/static/media/mapa2.e93fe8ac7c71c890b552.png",
+    "static/media/sitioConstruccion.png": "/Proyecto-IAF/static/media/sitioConstruccion.2b75e0c61b4279ed280d.png",
     "static/media/logo-iaf.png": "/Proyecto-IAF/static/media/logo-iaf.f95445e770764b5779ea.png",
     "static/media/img-nueva-tegnologia.png": "/Proyecto-IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
     "index.html": "/Proyecto-IAF/index.html",
-    "main.f7e0eab0.css.map": "/Proyecto-IAF/static/css/main.f7e0eab0.css.map",
-    "main.c77647e2.js.map": "/Proyecto-IAF/static/js/main.c77647e2.js.map",
+    "main.bcaf38cb.css.map": "/Proyecto-IAF/static/css/main.bcaf38cb.css.map",
+    "main.5aa77526.js.map": "/Proyecto-IAF/static/js/main.5aa77526.js.map",
     "787.e1063950.chunk.js.map": "/Proyecto-IAF/static/js/787.e1063950.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e0eab0.css",
-    "static/js/main.c77647e2.js"
+    "static/css/main.bcaf38cb.css",
+    "static/js/main.5aa77526.js"
   ]
 }
