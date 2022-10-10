@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Proyecto-IAF/static/css/main.bcaf38cb.css",
-    "main.js": "/Proyecto-IAF/static/js/main.0281c96a.js",
+    "main.js": "/Proyecto-IAF/static/js/main.4d1ff2d0.js",
     "static/js/787.e1063950.chunk.js": "/Proyecto-IAF/static/js/787.e1063950.chunk.js",
     "static/media/3.png": "/Proyecto-IAF/static/media/3.443a4e625509f22c0293.png",
     "static/media/1.png": "/Proyecto-IAF/static/media/1.63ad393e5b0946a31faa.png",
@@ -15,11 +15,11 @@
     "static/media/img-nueva-tegnologia.png": "/Proyecto-IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
     "index.html": "/Proyecto-IAF/index.html",
     "main.bcaf38cb.css.map": "/Proyecto-IAF/static/css/main.bcaf38cb.css.map",
-    "main.0281c96a.js.map": "/Proyecto-IAF/static/js/main.0281c96a.js.map",
+    "main.4d1ff2d0.js.map": "/Proyecto-IAF/static/js/main.4d1ff2d0.js.map",
     "787.e1063950.chunk.js.map": "/Proyecto-IAF/static/js/787.e1063950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcaf38cb.css",
-    "static/js/main.0281c96a.js"
+    "static/js/main.4d1ff2d0.js"
   ]
 }
