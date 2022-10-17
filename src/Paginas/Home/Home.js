@@ -5,9 +5,13 @@ import '../../EstilosGlobales/EstilosGlobales.css'
 import './Home.css'
 import IconoRedSocial from '../../Componentes/IconosSVG/IconoRedSocial';
 import { Link } from 'react-router-dom';
+import useSEO from '../../Hooks/useSEO';
 
 
 export default function Home(props) {
+
+
+  useSEO({title: 'HOME', description:'aaaa'})
     const redesSociales = [
         {   nombre:'instagram',
             linkURL:'http://www.google.com'
